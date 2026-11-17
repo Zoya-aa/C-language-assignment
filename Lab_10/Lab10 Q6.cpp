@@ -23,7 +23,7 @@ int main(){
     fscanf(fptr, "%s %s", fuser,fpass);
 
     if(strcmp(pass,fpass)==0){
-        printf("Access Granted!\n");
+        printf("Access Granted! \n");
     } 
 	else{
         printf("Access Denied! \n");
